@@ -2,7 +2,7 @@ package org.cuatrovientos.languagegreet;
 
 /**
  * @author Daniel Martin
- * greetz in different languages
+ * Greets in different languages
  */
 public class languagegreet {
 
@@ -12,7 +12,7 @@ public class languagegreet {
 	 * @param repeatCount how many times repeat greet
 	 * @return a String with the greeting
 	 */
-	public String greet_method (int languageNumber, int repeatCount) {
+	public String greet (int languageNumber, int repeatCount) {
 		String allGreets = "";
 		String greet = "";
 		
